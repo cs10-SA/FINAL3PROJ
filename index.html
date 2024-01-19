@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="home.css" />
+
+    <script defer src="main.js"></script>
+    <style>
+      .button{
+        height: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Hamburger div-->
+    <div class="hamburger-div">
+      <a class="home" href="index.html">Home</a>
+      <a class="about" href="about.html">About Me</a>
+      <a class="activity" href="activity.html">Activity</a>
+      <a class="blog" href="blog.html">Mini Blog</a>
+
+      <img id="ham-icon" src="img/hamb.png" alt="Hamburger icon" width="30" />
+    </div>
+    <!-- chat div -->
+<div id="chat-div" style="display: none">
+      <p >hello. whats your name?</p>
+      <span><input id="text-in" type="text"> <button id="btn"></button></span>
+      <p id="text-out"></p>
+      <p>enter to-do list here:</p> 
+        <p><input id="list" type="text" ></p>
+        <p><input id="list2"  type="text"></p>
+        <p><input id="list3" type="text"></p>
+        <p><input id="list4" type="text"></p>
+  
+<button id="settings-btn">save settings</button>
+      
+      
+    </div>
+    
+
+    <!--Display div-->
+    <div class="display-div">
+      <center>
+      <p class="focus">HOME</p>
+      <hr />
+      <h2><span class="datetime" id="datetime"></span></h2>
+      
+      </center>
+      <p id="text-out2"></p>
+      
+    </div>
+    
+  </body>
+</html>
